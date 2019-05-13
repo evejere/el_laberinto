@@ -15,4 +15,4 @@ comandos para navegar en la terminal
 #ls o dir (para ver documentos existentes)
 #cd nombre_de_archivo (para encontrar el archivo)
 #cd .. (para salir del archivo)
-
+ 
