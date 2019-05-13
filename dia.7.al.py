@@ -20,9 +20,9 @@ from random import randint# importamos  la funcion front import de la libreria
 
 def personas(participan):#definimos una funcion
     #utilizamos len para saber la cantidad de personas que hay en la lista y guardamos en cant
-    participantes= len(participan) -1#se le resta 1 porque la lista empieza en 0
-    indice=randint (0 ,cant)# creamos una variable y generamos un numero aleatorio
-    ganador=participantes[indice]
+    participantes= len(participan)-1#se le resta 1 porque la lista empieza en 0
+    indice=randint (0,participantes)# creamos una variable y generamos un numero aleatorio
+    ganador=participan[indice]
     #seleccionamos un participante de la lista para 
     # guardarlo en la variable
     return ganador #retornamos ganador
